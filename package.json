@@ -1,6 +1,6 @@
 {
 	"name": "@aidenhadisi/doublylinkedlist",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A doubly linked list library for js.",
 	"type": "module",
 	"exports": "./dist/index.js",

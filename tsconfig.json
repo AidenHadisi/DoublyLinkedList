@@ -1,13 +1,8 @@
 {
 	"compilerOptions": {
-		// Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
-		// "outDir": "dist",
-
 		"module": "ES2020",
 		"target": "ES2019", // Node.js 12
-		"lib": ["ES2019", "ES2020.String", "DOM"],
 		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": false,
 		"declaration": true,
 		"pretty": true,
@@ -19,13 +14,17 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedIndexedAccess": false,
 		"noEmitOnError": true,
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true,
 		"outDir": "dist",
-		"noPropertyAccessFromIndexSignature": false
+		"noPropertyAccessFromIndexSignature": false,
+		"importHelpers": true,
+		"experimentalDecorators": true,
+		"downlevelIteration": true,
+		"isolatedModules": true,
+		"declarationMap": true
 	},
 
 	"include": ["src"]
