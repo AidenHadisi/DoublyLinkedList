@@ -1,0 +1,33 @@
+{
+	"name": "@aidenhadisi/doublylinkedlist",
+	"version": "1.0.0",
+	"description": "A doubly linked list library for js.",
+	"type": "module",
+	"exports": "./dist/index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"build": "del dist && tsc",
+		"prepare": "npm run build"
+	},
+	"files": [
+		"dist"
+	],
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AidenHadisi/DoublyLinkedList.git"
+	},
+	"keywords": [
+		"linkedlist",
+		"list",
+		"doubly"
+	],
+	"author": "Aiden Hadisi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AidenHadisi/DoublyLinkedList/issues"
+	},
+	"homepage": "https://github.com/AidenHadisi/DoublyLinkedList#readme"
+}
