@@ -1,4 +1,4 @@
-export class Node<T> {
+export default class Node<T> {
 	public val: T | null;
 	public next: Node<T> | null;
 	public prev: Node<T> | null;
