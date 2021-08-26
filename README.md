@@ -21,7 +21,7 @@ $ yarn add @aidenhadisi/doublylinkedlist
 ### Adding Elements
 
 ```js
-import { LinkedList } from "@aidenhadisi/doublylinkedlist";
+import LinkedList from "@aidenhadisi/doublylinkedlist";
 
 //Specify data type you want to store in the list, for example number:
 let list = new LinkedList<number>();
